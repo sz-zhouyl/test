@@ -1,3 +1,4 @@
+1)第一种调用方法
 new  AlertDialog.Builder(context)
 .setTitle("确认" )
 .setMessage("确定吗？" )
@@ -5,6 +6,7 @@ new  AlertDialog.Builder(context)
 .setNegativeButton("否" , null)
 .show();
 
+2)第二种调用方法
   AlertDialog.Builder builder = new Builder(MainActivity.this);
   builder.setTitle("请输入");
   builder.setIcon(R.drawable.ic_launcher);
